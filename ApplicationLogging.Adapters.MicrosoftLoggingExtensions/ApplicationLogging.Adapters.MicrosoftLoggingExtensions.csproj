@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Alastair Wyse</Authors>
+    <Company />
+    <Description>An ApplicationLogging logger which provides an adapter to write logs to a Microsoft.Extensions.Logging ILogger instance (e.g. for integration into ASP.NET projects).</Description>
+    <Copyright>Copyright © Alastair Wyse 2023</Copyright>
+    <PackageProjectUrl>https://github.com/alastairwyse/ApplicationLogging.Adapters.MicrosoftLoggingExtensions/</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/alastairwyse/ApplicationLogging.Adapters.MicrosoftLoggingExtensions/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>og logging client application abstraction simple microsoft extensions ilogger</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ApplicationMetrics.MetricLoggers.SqlServer\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ApplicationLogging" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

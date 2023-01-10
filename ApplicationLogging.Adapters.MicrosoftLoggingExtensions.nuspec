@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ApplicationLogging.Adapters.MicrosoftLoggingExtensions</id>
+    <version>1.0.0</version>
+    <authors>Alastair Wyse</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/alastairwyse/ApplicationLogging.Adapters.MicrosoftLoggingExtensions/</projectUrl>
+    <description>An ApplicationLogging logger which provides an adapter to write logs to a Microsoft.Extensions.Logging ILogger instance (e.g. for integration into ASP.NET projects).</description>
+    <summary>An ApplicationLogging logger which provides an adapter to write logs to a Microsoft.Extensions.Logging ILogger instance</summary>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright © Alastair Wyse 2023</copyright>
+    <tags>log logging client application abstraction simple microsoft extensions ilogger</tags>
+    <repository type="git" url="https://github.com/alastairwyse/ApplicationLogging.Adapters.MicrosoftLoggingExtensions/" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="ApplicationLogging" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\ApplicationLogging.Adapters.MicrosoftLoggingExtensions\bin\Release\netstandard2.0\ApplicationLogging.Adapters.MicrosoftLoggingExtensions.dll" target="lib\netstandard2.0\ApplicationLogging.Adapters.MicrosoftLoggingExtensions.dll" />
+    <file src=".\ApplicationLogging.Adapters.MicrosoftLoggingExtensions\bin\Release\netstandard2.0\ApplicationLogging.Adapters.MicrosoftLoggingExtensions.xml" target="lib\netstandard2.0\ApplicationLogging.Adapters.MicrosoftLoggingExtensions.xml" />
+  </files>
+</package>
