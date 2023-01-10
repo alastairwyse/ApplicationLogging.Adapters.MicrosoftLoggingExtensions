@@ -12,7 +12,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/alastairwyse/ApplicationLogging.Adapters.MicrosoftLoggingExtensions/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>og logging client application abstraction simple microsoft extensions ilogger</PackageTags>
+    <PackageTags>log logging client application abstraction simple microsoft extensions ilogger</PackageTags>
     <PackageReleaseNotes>First release.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
