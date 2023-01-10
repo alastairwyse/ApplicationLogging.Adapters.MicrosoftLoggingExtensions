@@ -3,7 +3,7 @@ ApplicationLogging.Adapters.MicrosoftLoggingExtensions
 
 An implementation of an [ApplicationLogging](https://github.com/alastairwyse/ApplicationLogging) [IApplicationLogger](https://github.com/alastairwyse/ApplicationLogging/blob/master/ApplicationLogging/IApplicationLogger.cs) which provides an adapter to write logs to a [Microsoft.Extensions.Logging.ILogger](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger?view=dotnet-plat-ext-7.0) instance (e.g. for integration into ASP.NET projects).
 
-#### Handling of Log() Method 'source' Parameter
+#### Handling of the Log() Method 'source' Parameter
 
 Some of the overrides of the IApplicationLogger.Log() method allow specifying the object which is generating the log data in the 'source' parameter.  It would be populated as follows if you want to set the current object as the one generating (first parameter containing 'this' reference in the below example)...
 
